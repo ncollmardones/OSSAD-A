@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "appossada",
+  "private_key_id": "e254c823b829f9c1a80fe39ff15cc356b8f7b28e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzsTZwhIAf8tMI\n6/G1aRfjwr4ai8aI7yAcbhkiSabzBMBjbdXP9p4y3uI8vvYZCqaiBMMWAxjyP3wD\nvEVeriYkurTfpOwgq+5ertUcRjWx1TqtNq6Pb+RqVLbWFN8f83fNMlA3/gE7Jot+\nYlzlRQTeIXgSUud5O6CiAWwSYYmoW9O/pDhoFliSeZEoHTZA5K1vgmkWc1pFWgkf\ncXsRJjNsFSYfrATjDIEvTiSkdCJQbSJM+BzZkxikpRrSza5HlNOlumlanlJgsedL\n5L8eigjO6l93HkFdn8KjORynkOKHS5iBv3ewBgaNWuMp1HtNhiX2MWmLrqnB+M3b\nrMVMiCYtAgMBAAECggEADQwMdl4AiZFRhl/PVIs1a1msAPRuLWojbD0IQSeU4idR\nqsaCVE/FS89IIP4Ck23lDHWJDrOZ35kBcan9ZXMCnP8be/OXG4YwUBqkqaFla6ye\nTo5eXVbUAG53OhMY4lKEu9bv4SjlwPw6+6m7sf/xawmGFNqFKRXNw4WT6b/ARYOJ\n9oZLhfCB6ylF7xOElEy5T0P5BuHNh/NBjhs2dR2ROEcl1aelKs5zpeOxuQW5vDQK\nl5WArJ4abJKTI5xcyOKC/h/xgLAhU9vBdDS3bSV2SidyyRTJ//aqfAX5+JJMEXsa\nfrUXaJylDUM83pRNnVJBuoPhPDRhJXDEpg22YHjSRwKBgQDzbHUUNuZRaTL9Ba44\nL6qvwg/Ukdw+EYTXQkdYxoxbjTRVMRu3UJl+bOqlz0GRhziIvfoHnsu2Fu9MXed3\nTmaHZYosD+SrKLr0xSQiujq6HLQtOVVDG1jceyrHWkqGbeofXSVueEsZcl+RTg+n\nZ4Oya4ZL3GlxxoAk+5b4wmNJdwKBgQC8+daBfjLOZQ/31McvyXFsoy8MHqa+SJxG\nlW/TkQx4QI5x06pgwPqBMbuqQ27wxCkSMeOgiMWNt6Vp1/Ex+9PzLha0h3Te+zjA\nw83yIIecZtqpUpnjZl3mk6DMwj7EQ9GJZnkorcm9Jif+Bf3KNUL622oBn8wSkz3M\nok4aUoF2ewKBgQDx3v+KgW5i0DPQw7czrvFbyGjwX6pGpiOnu/ymkkpeobSxPaV7\nhYOu4kxZStGs535eKN5qefeSS8Gk0N2wZ19rA5LCa1xcUZFKqyRXuVGnIeRJ12EH\n2AF4uo1sHiRU5JwwY95QoQiGFWYuPDFDtpBeVYbQlAbV/VXQ6Yg+TvBWywKBgGF1\nm/oGop8tIdIXq25qvpNfiVj/ydDi063XTefXq42tBYmQtxLVE5xjkLxbsLB9Cg13\nK0TUpMXUy3tNwfecP4/v2gfawBxrhbZshR71RdsUdHrUvca4OX877bcMCqDftQXe\nkme3UQ66ye9JGb0aQOPtGruhtPZzd3C81/jdSiVXAoGABDkCZ9C+O1lDdt+nB+O6\noIN19wyeV42DQZ+2hvC2vtqTJD5F21s1OeooU9rtsRCa5TANAKHE/P7rjB0+geNj\nB9DMOJL+1x4qVYRsxbY2/Xf+HEikblljXeev/Bdq/ePpHjGSltaL6D6bUp9e9Zm+\n+qufIESiM0gqbZ9VnQdPEcQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ossada@appossada.iam.gserviceaccount.com",
+  "client_id": "104243504849005161248",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ossada%40appossada.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
