@@ -8,6 +8,7 @@ const app = express();
 // En producción, solo permite tu dominio de Netlify
 const allowedOrigins = [
   "https://monitoreo-salares-ossada.netlify.app",
+  "https://ossad-a.netlify.app",
   "http://localhost:5173", // para desarrollo local
   "http://localhost:3000",
 ];
