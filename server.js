@@ -54,7 +54,12 @@ function initEarthEngine(){
 
     if(process.env.GEE_KEY){
 
-      key = JSON.parse(process.env.GEE_KEY);
+      key = JSON.parse(
+        fs.readFileSync("./key.json","utf8")
+        );
+
+        console.log("🔑 Cuenta:", key.client_email);
+        console.log("📁 Proyecto:", key.project_id);
 
 
     }else{
@@ -94,8 +99,28 @@ function initEarthEngine(){
       ee.initialize(
         null,
         null,
-        resolve,
+
+        ()=>{
+
+          COLECCION = ee.ImageCollection(
+            "projects/appossada/assets/COLECCION_SALARES"
+              );
+
+
+          ENVOLVENTES = ee.FeatureCollection(
+             "projects/appossada/assets/SALARES_FINAL"
+              );
+
+
+          console.log("✅ Assets Earth Engine cargados");
+
+
+          resolve();
+
+          },
+
         reject
+
       );
 
 
@@ -120,14 +145,8 @@ function initEarthEngine(){
 // ======================================================
 
 
-const COLECCION = ee.ImageCollection(
- "projects/appossada/assets/COLECCION_SALARES"
-);
-
-
-const ENVOLVENTES = ee.FeatureCollection(
- "projects/appossada/assets/SALARES_FINAL"
-);
+let COLECCION;
+let ENVOLVENTES;
 
 
 
